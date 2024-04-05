@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(223, 173, 223);
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    font-family: Helvetica MS, sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin-left: 320px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    padding: 2rem;
+    border: 2px solid red;
+
+    box-sizing: border-box;
+
+}
+
+.highlighted {
+    background-color: rgb(224, 253, 204);
+    font-weight: bold;
+}
+
+h1 {
+    color: aqua;
+}
+
+.navigation {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+
+    border: 2px dotted rgb(13, 0, 255);
+    box-sizing: border-box;
+
+    width: 300px;
+    position: fixed;
+    margin: 0;
+
+    a {
+        color: black;
+    }
+
+}
+
+
+/* comment category */
+
+#random:hover {
+    color: blueviolet;
+}
+
+nav {
+
+}
